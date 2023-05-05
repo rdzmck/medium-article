@@ -1,0 +1,58 @@
+.banner {
+  background-image: url(https://source.unsplash.com/random/1000x500);
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  color: white;
+  padding: 100px 200px;
+  align-items: center;
+  display: block;
+}
+
+.banner h1 {
+  font-size: 48px;
+  margin-bottom: 16px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+.banner h2 {
+  font-size: 24px;
+  font-family: 'Karla', sans-serif;
+  font-weight: 500;
+  color: white;
+}
+
+.container {
+  font-family: 'Karla', sans-serif;
+  margin: 0 auto;
+  max-width: 800px;
+  padding: 0 16px;
+}
+
+.container h2 {
+  font-size: 32px;
+  margin-top: 32px;
+}
+
+.container p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 16px;
+}
+
+.container a {
+  color: #0077cc;
+  transition: color 0.3s ease;
+}
+
+.container a:hover {
+  color: #004499;
+}
+
+@media(max-width: 992px) {
+  .container {
+    width: 700px;
+  }
+}
